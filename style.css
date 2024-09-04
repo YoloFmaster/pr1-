@@ -6,15 +6,15 @@
 .body{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("photo/background.png");   
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    height: 100vh;
 }
 
 main{
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap; 
-    margin-bottom: 9vh;
 }
 
 
@@ -33,6 +33,7 @@ header{
     font-size: 2.5em;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 
@@ -97,20 +98,20 @@ input[type='checkbox']{
 }
 
 button{
+    width: 150px;
     height: 50px;
     border-radius: 20px;
-    width: 150px;
     padding: 10px;
     margin: 15px;
     border-color: rgb(255, 255, 255);
 }
 
 button:hover{
+    width: 160px;
+    height: 55px;
     border-color: rgb(0, 0, 0);
     background-color: black;
     color: white;
-    width: 160px;
-    height: 55px;
 }
 
 .buttons-container{
