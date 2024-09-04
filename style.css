@@ -109,6 +109,8 @@ button:hover{
     border-color: rgb(0, 0, 0);
     background-color: black;
     color: white;
+    width: 160px;
+    height: 55px;
 }
 
 .buttons-container{
@@ -118,4 +120,15 @@ button:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/*Стили для нижней части страницы*/
+footer{
+    font-size: 1.3em;
+    color: white;
+    margin-left: 2%;
+}
+
+.footer-item{
+    margin-top: 0.5%;
 }
